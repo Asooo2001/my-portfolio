@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.8dc0ed3d.css",
-    "main.js": "/my-portfolio/static/js/main.1f50ad0d.js",
+    "main.js": "/my-portfolio/static/js/main.8eec7310.js",
     "static/media/roi-kids-homepage.png": "/my-portfolio/static/media/roi-kids-homepage.dc6779e55159f406c0d7.png",
     "static/media/profile-pic.jpg": "/my-portfolio/static/media/profile-pic.fec366e36b6d4ad039be.jpg",
+    "static/media/to-do-list-homepage.png": "/my-portfolio/static/media/to-do-list-homepage.485b5054801442d45db0.png",
     "static/media/common-bg.svg": "/my-portfolio/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/my-portfolio/index.html",
     "main.8dc0ed3d.css.map": "/my-portfolio/static/css/main.8dc0ed3d.css.map",
-    "main.1f50ad0d.js.map": "/my-portfolio/static/js/main.1f50ad0d.js.map"
+    "main.8eec7310.js.map": "/my-portfolio/static/js/main.8eec7310.js.map"
   },
   "entrypoints": [
     "static/css/main.8dc0ed3d.css",
-    "static/js/main.1f50ad0d.js"
+    "static/js/main.8eec7310.js"
   ]
 }
