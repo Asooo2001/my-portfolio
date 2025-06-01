@@ -1,7 +1,7 @@
 import "./Projects.css"
 import { Link } from "react-router-dom"
 import RoiKidsPic from '../assets/images/roi-kids-homepage.png'
-
+import ToDoListPic from '../assets/images/to-do-list-homepage.png'
 function Projects() {
   return (
     <section className="projects-section" id="projects">
@@ -43,20 +43,22 @@ function Projects() {
             <div className="project-image">
               <div className="laptop-mockup">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Project2"
+                  src={ToDoListPic}
+                  alt="To-Do List Project"
                   className="project-screenshot"
                 />
               </div>
             </div>
             <div className="project-info">
-              <h3 className="project-title">Project2</h3>
+              <h3 className="project-title">To-Do List</h3>
               <p className="project-description">
-                To be Continued.
+                This is a clean and functional to-do list web app that lets users manage daily tasks. It features task creation, completion toggling,
+                 and deletion, with all data stored in the browser using localStorage for persistence.
+                 Designed with simplicity and responsiveness in mind, it works well on both desktop and mobile devices.
               </p>
-              <a href="#" className="case-study-button">
+              <Link to="/todolist" className="case-study-button">
                 CASE STUDY
-              </a>
+              </Link>
             </div>
           </div>
         </div>

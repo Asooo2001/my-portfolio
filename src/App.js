@@ -6,13 +6,14 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
 import SocialSidebar from "./components/SocialSidebar"
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom' 
+import {BrowserRouter as Router, Routes, Route, BrowserRouter} from 'react-router-dom' 
 import RoiKids from "./pages/RoiKids"
 import ScrollToTop from "./ScrollToTop"
+import ToDoList from "./pages/ToDoList"
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/my-portfolio">
       <ScrollToTop/>
     <div className="app">
       <Routes>
@@ -32,9 +33,10 @@ function App() {
       <Footer/>
       </>} />
       <Route path="/roikids" element={<RoiKids/>}/>
+      <Route path="/todolist" element={<ToDoList/>}/>
       </Routes>
      </div>
-     </Router>
+     </BrowserRouter>
   )
 }
 
